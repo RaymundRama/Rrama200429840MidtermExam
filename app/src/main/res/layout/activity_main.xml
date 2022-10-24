@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F4B1FF"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="110dp"
-        android:layout_height="15dp"
+        android:layout_width="113dp"
+        android:layout_height="21dp"
+        android:background="#00B0FF"
         android:text="@string/enterListNameText"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,16 +25,19 @@
         android:layout_width="124dp"
         android:layout_height="48dp"
         android:layout_marginEnd="40dp"
+        android:backgroundTint="#FF0000"
         android:text="@string/cancelButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintVertical_bias="0.947"
+        app:strokeColor="#FF0000" />
 
     <Button
         android:id="@+id/saveButton"
         android:layout_width="122dp"
         android:layout_height="50dp"
+        android:backgroundTint="#4CAF50"
         android:text="@string/saveButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button9"
@@ -54,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.871" />
+        app:layout_constraintVertical_bias="0.904" />
 
     <EditText
         android:id="@+id/editTextTextPersonName16"
@@ -77,6 +82,7 @@
         android:layout_height="20dp"
         android:layout_marginTop="110dp"
         android:layout_marginBottom="32dp"
+        android:background="#00B0FF"
         android:text="@string/quantityText"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,6 +97,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"
         android:layout_marginBottom="36dp"
+        android:background="#00B0FF"
         android:text="@string/itemText"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName14"
         app:layout_constraintEnd_toStartOf="@+id/textView6"
@@ -111,7 +118,7 @@
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName14"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.886" />
 
     <EditText
         android:id="@+id/editTextNumber5"
@@ -142,7 +149,7 @@
         app:layout_constraintEnd_toStartOf="@+id/increment3"
         app:layout_constraintStart_toEndOf="@+id/decrement3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/decrement4"
@@ -156,7 +163,7 @@
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName17"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.986" />
+        app:layout_constraintVertical_bias="0.984" />
 
     <Button
         android:id="@+id/increment1"
@@ -165,12 +172,13 @@
         android:layout_marginStart="1dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="10dp"
+        android:backgroundTint="#FF5722"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toTopOf="@+id/increment2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <Button
         android:id="@+id/increment4"
@@ -178,6 +186,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF5722"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toTopOf="@+id/increment5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -190,6 +199,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="16dp"
+        android:backgroundTint="#FF5722"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -224,7 +234,7 @@
         app:layout_constraintEnd_toStartOf="@+id/increment1"
         app:layout_constraintStart_toEndOf="@+id/decrement1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.89" />
 
     <EditText
         android:id="@+id/editTextNumber2"
@@ -240,7 +250,7 @@
         app:layout_constraintEnd_toStartOf="@+id/increment2"
         app:layout_constraintStart_toEndOf="@+id/decrement2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <Button
         android:id="@+id/increment3"
@@ -249,12 +259,13 @@
         android:layout_marginStart="1dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="12dp"
+        android:backgroundTint="#FF5722"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toTopOf="@+id/increment4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/decrement2"
@@ -268,7 +279,7 @@
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName15"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.967" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <Button
         android:id="@+id/increment2"
@@ -277,12 +288,13 @@
         android:layout_marginStart="1dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF5722"
         android:text="@string/plusSymbol"
         app:layout_constraintBottom_toTopOf="@+id/increment3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947" />
+        app:layout_constraintVertical_bias="0.954" />
 
     <EditText
         android:id="@+id/editTextNumber4"
@@ -312,7 +324,7 @@
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName16"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.955" />
 
     <EditText
         android:id="@+id/editTextTextPersonName15"
@@ -362,6 +374,7 @@
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#00B0FF"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Shopping List"

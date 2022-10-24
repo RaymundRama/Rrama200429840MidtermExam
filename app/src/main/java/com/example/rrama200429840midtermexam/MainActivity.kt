@@ -31,11 +31,6 @@ class MainActivity : AppCompatActivity() {
         val editTextNumber4 = findViewById(R.id.editTextNumber4) as EditText
         val editTextNumber5 = findViewById(R.id.editTextNumber5) as EditText
 
-        saveButton.setOnClickListener(new View.OnClickListener() {
-        })
 
-        decrement1.setOnClickListener() {
-
-        }
     }
 }
