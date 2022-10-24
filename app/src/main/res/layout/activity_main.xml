@@ -100,14 +100,14 @@
         app:layout_constraintVertical_bias="0.933" />
 
     <Button
-        android:id="@+id/plusSymbol1"
+        android:id="@+id/decrement1"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="10dp"
         android:text="@string/minusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintBottom_toTopOf="@+id/decrement2"
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName14"
         app:layout_constraintTop_toTopOf="parent"
@@ -123,8 +123,8 @@
         android:inputType="number"
         android:text="5"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button19"
-        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintEnd_toStartOf="@+id/increment5"
+        app:layout_constraintStart_toEndOf="@+id/decrement5"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.723" />
 
@@ -139,54 +139,54 @@
         android:inputType="number"
         android:text="3"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber4"
-        app:layout_constraintEnd_toStartOf="@+id/button15"
-        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintEnd_toStartOf="@+id/increment3"
+        app:layout_constraintStart_toEndOf="@+id/decrement3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.978" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/decrement4"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="16dp"
         android:text="@string/minusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button18"
+        app:layout_constraintBottom_toTopOf="@+id/decrement5"
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName17"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.986" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/increment1"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="10dp"
         android:text="@string/plusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintBottom_toTopOf="@+id/increment2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/increment4"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/plusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button19"
+        app:layout_constraintBottom_toTopOf="@+id/increment5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.985" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/increment5"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="16dp"
@@ -198,7 +198,7 @@
         app:layout_constraintVertical_bias="0.723" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/decrement5"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
@@ -221,8 +221,8 @@
         android:inputType="number"
         android:text="1"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber2"
-        app:layout_constraintEnd_toStartOf="@+id/button11"
-        app:layout_constraintStart_toEndOf="@+id/plusSymbol1"
+        app:layout_constraintEnd_toStartOf="@+id/increment1"
+        app:layout_constraintStart_toEndOf="@+id/decrement1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.83" />
 
@@ -237,48 +237,48 @@
         android:inputType="number"
         android:text="2"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber3"
-        app:layout_constraintEnd_toStartOf="@+id/button13"
-        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintEnd_toStartOf="@+id/increment2"
+        app:layout_constraintStart_toEndOf="@+id/decrement2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.947" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/increment3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="12dp"
         android:text="@string/plusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button17"
+        app:layout_constraintBottom_toTopOf="@+id/increment4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber3"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.978" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/decrement2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="31dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="16dp"
         android:text="@string/minusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintBottom_toTopOf="@+id/decrement3"
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName15"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.967" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/increment2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/plusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintBottom_toTopOf="@+id/increment3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/editTextNumber2"
         app:layout_constraintTop_toTopOf="parent"
@@ -295,20 +295,20 @@
         android:inputType="number"
         android:text="4"
         app:layout_constraintBottom_toTopOf="@+id/editTextNumber5"
-        app:layout_constraintEnd_toStartOf="@+id/button17"
-        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintEnd_toStartOf="@+id/increment4"
+        app:layout_constraintStart_toEndOf="@+id/decrement4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.985" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/decrement3"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="7dp"
         android:layout_marginBottom="12dp"
         android:text="@string/minusSymbol"
-        app:layout_constraintBottom_toTopOf="@+id/button16"
+        app:layout_constraintBottom_toTopOf="@+id/decrement4"
         app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
         app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName16"
         app:layout_constraintTop_toTopOf="parent"
