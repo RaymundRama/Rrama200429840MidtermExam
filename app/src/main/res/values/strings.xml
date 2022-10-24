@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Rrama200429840MidtermExam</string>
 
+    <!-- Save and cancel buttons-->
     <string name="saveButton"> Save </string>
+    <string name="cancelButton">Cancel</string>
+
+    <!-- Unchangeable text fields-->
+    <string name="enterListNameText">Enter List Name</string>
+    <string name="quantityText">Enter Item</string>
+    <string name="itemText">Quantity</string>
+
+    <!-- Symbols for increment buttons-->
+    <string name="plusSymbol">+</string>
+    <string name="minusSymbol">-</string>
 </resources>

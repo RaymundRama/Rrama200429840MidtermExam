@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
 
         val saveButton = findViewById(R.id.saveButton) as Button
 
-        saveButton.setOnClickListener(sender)
+        //saveButton.setOnClickListener(sender)
     }
 }
